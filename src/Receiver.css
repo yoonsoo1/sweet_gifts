@@ -1,0 +1,69 @@
+body {
+    background-color: #FAF8F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.receiver-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px; /* optional: set a max-width for the element */
+    padding: 20px;
+}
+  
+.receiver-container h1, .receiver-container h2 {
+    margin: 5px;
+}
+
+.receiver-container input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.receiver-container p {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.confirm-button {
+    padding: 10px 20px;
+    margin-top:20px;
+    background-color: #725A7A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover {
+    background-color: #ac89b8;
+}
+
+.profile-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-image: url('assets/profile-icon.png');
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+

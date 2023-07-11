@@ -1,0 +1,215 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.start-page {
+  position: relative;
+  width: 1512px;
+  height: 982px;
+
+  background: linear-gradient(180deg, #FAF8F4 0%, #C56C86 100%);
+}
+
+.gift-rec-text {
+  /* i am GIVING gifts */
+
+
+  position: absolute;
+  width: 352px;
+  height: 177px;
+  left: 965px;
+  top: 233px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+
+  color: #333333;
+}
+
+.gift-rec-input {
+  /* TextField */
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px 16px;
+
+  position: absolute;
+  width: 390px;
+  height: 46px;
+  left: 993px;
+  top: 666px;
+
+  /* System Background/Light/Primary */
+
+  background: #FFFFFF;
+}
+
+.receiving-login {
+  /* divider */
+  position: absolute;
+  width: 869px;
+  height: 982px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #725A7A 0%, #E3E1E9 100%);
+}
+
+.receiving-login-text {
+  /* i am RECEIVING gifts */
+  position: absolute;
+  width: 352px;
+  height: 177px;
+  left: 134px;
+  top: 233px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+
+  color: #FFFFFF;
+}
+
+.google-sign-in-button {
+  /* signin */
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 40px;
+  gap: 10px;
+
+  position: absolute;
+  width: 393px;
+  height: 84px;
+  left: 177px;
+  top: 652px;
+
+  background: #2F2F2F;
+  border-radius: 100px;
+}
+
+.google-sign-in-logo {
+  /* google logo */
+  width: 24px;
+  height: 24px;
+  left: 177px;
+  top: 652px;
+}
+
+.rec-prof {
+  position: absolute;
+  min-width: 100%;
+  height: 100vh;
+
+  background: #FAF8F4;
+}
+
+.prof-header {
+  position: relative;
+  width: 712px;
+  height: 63px;
+  left: 68px;
+  top: 69px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+
+  color: #2F2F2F;
+}
+
+.rec-box {
+  position: relative;
+  background: #725A7A;
+  border-radius: 10px;
+}
+
+.add-btn {
+  position: relative;
+  width: 300px;
+  height: 81px;
+  left: 30%;
+  top: 1%;
+  background: rgba(255, 117, 130, 0.33);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.logout {
+  position: relative;
+  left:25%;
+  top: 1%;
+  font-size: 25px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  background: rgba(255, 117, 130, 0.33);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.gift-btn {
+  position: relative;
+  width: 300px;
+  height: 81px;
+  left: 30%;
+  top: 766px;
+  background: rgba(255, 117, 130, 0.33);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+}
