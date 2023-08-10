@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an implementation of gift giving application using React and Firebase.\
+It is aimed to make gift giving for events more fluid and easy, without duplicating gifts.\
+The event creator (e.g. birthday person) can send out the event code or the link to the participants.\
+The event creator cannot see what the participants are adding as gifts but the participants can see what others have planned as gifts.\
+\
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
 
 ## Available Scripts
 
