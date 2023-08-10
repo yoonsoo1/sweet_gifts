@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React App to Make Gift Giving an Easy Process! 
 
 This is an implementation of gift giving application using React and Firebase.\
 It is aimed to make gift giving for events more fluid and easy, without duplicating gifts.\
